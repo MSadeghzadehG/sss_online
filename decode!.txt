@@ -1,0 +1,69 @@
+variables:
+
+_I91 -> boolean related to songs format
+_G91 -> string of songs format
+_F91 -> string of songs url
+_wQ -> font family
+_ed._ig -> boolean : has weapon or not
+_ed._kj , _ed._jg -> relating to type of slime
+_ed._Jf , _ed._Lf -> related to _ed._ig
+_ed._Bg -> easiness of ai
+global._Wd -> string of hardness
+_0C object = _Wt2 object = _Nw = _Ow 
+_C3 = _NN -> big object
+_WX -> gets browser properties
+_HY2 -> room properties
+_IY2 -> ball properties
+
+---------------------------------------------------------------------
+
+functions:
+
+_E91 -> sets url of songs
+_TU = _SU = _UU = _VU = _WU -> graphical functions
+_AU = _XU = _zU = _BU = _yU -> graphical functions
+_hU = _gU
+_eU = _dU = _fU -> graphical functions
+
+_IX , _NX , _SX, _QX , _ZX , _DX -> sending xhr request
+_jt2 -> match variables with _WX inputs
+_df2 , _491 -> set window listeners
+
+_yB , _hB -> handle canvas.ontouch... events
+
+_833 -> ???
+
+_zu2 ->  gets images and sounds
+
+_yO , _TI2-> sets margins
+
+_Ib1 -> set images and transforms
+
+__O , _WO -> facebook connection
+
+_1V -> moving ball according to angle
+_34 -> check cheat accept
+_44 , _54 , _64 -> initializing the game
+_d4 -> setting slime type
+_f4 -> setting hardness of ai game
+_4I2 = _Qf
+
+-----------------------------------------------------------------------
+
+GameMaker_Init -> called by browser
+    _z23(window.location);
+    _jt2();
+    _df2();
+    _491()
+    _2B = new _yO();
+    __O(_NN._xc._D23)
+    _NN._xc._VO() ???
+    _TI2();
+    _Iv = canvas.getContext('2d')
+    _Ib1(_Iv);
+    _yB();
+    _St2(); ???
+    _rg1(); ???
+    _zu2(_NN);
+    requestAnimFrame(_G23) ???
+
